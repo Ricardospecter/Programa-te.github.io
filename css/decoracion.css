@@ -1,0 +1,63 @@
+.barra_superior {
+    text-decoration: none;
+    text-size-adjust: 30%;
+}
+
+.Registrarse {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    color: white;
+    background-color: #0056b3;
+    border-radius: 8px;
+    border-color:#0056b3;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.Registrarse:hover {
+    background-color:  #9068da;
+
+}
+
+.Resistrarses:active {
+    transform: translateY(2px);
+}
+
+.secion {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    color: white;
+    background-color:  #0056b3;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.secion:hover {
+    background-color:#9068da;
+}
+
+.secion:active {
+    transform: translateY(2px);
+}
+body{
+    background-image:url(https://i.pinimg.com/originals/c6/3c/ae/c63cae1344766f14d9d184e5aafed065.gif);
+    background-size: cover;        /* Asegura que la imagen cubra toda la página */
+    background-position: center;   /* Centra la imagen */
+    background-repeat: no-repeat;  /* Evita que la imagen se repita */
+    height: 100vh;                 /* Hace que la página tenga una altura de 100% del viewport */
+    width: 100vw;                  /* Asegura que el ancho sea el 100% de la pantalla */
+    background-attachment: fixed;  /
+}
+section{
+    background-color: #4B0082;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
